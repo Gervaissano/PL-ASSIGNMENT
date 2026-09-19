@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="https://github.com/user-attachments/assets/44d63816-b143-46c6-b49e-8f59f6e95ae7"
+  <img src="auca logo.png"
        alt="Adventist University of Central Africa (AUCA) Logo"
        width="120"
        height="120">
