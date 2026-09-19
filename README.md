@@ -1,8 +1,8 @@
 <p align="left">
   <img src="auca logo.png"
        alt="Adventist University of Central Africa (AUCA) Logo"
-       width="120"
-       height="120">
+       width="520"
+       height="520">
 </p>
 
 Sunrise Supermarket Database
