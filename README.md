@@ -1,4 +1,9 @@
-<img width="100" height="1080" alt="image" src="https://github.com/user-attachments/assets/44d63816-b143-46c6-b49e-8f59f6e95ae7" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/44d63816-b143-46c6-b49e-8f59f6e95ae7"
+       alt="Adventist University of Central Africa (AUCA) Logo"
+       width="120"
+       height="120">
+</p>
 
 Sunrise Supermarket Database
 
