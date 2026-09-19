@@ -27,11 +27,11 @@ Data Requirements
 -----------------
 The database contains:
 
-5+ customers
-8+ products
+[5+ customers](https://github.com/Gervaissano/PL-ASSIGNMENT/blob/test-1/Order_items%20table.xls)
+[8+ products](https://github.com/Gervaissano/PL-ASSIGNMENT/blob/test-1/Product%20table.xls)
 Products from 3+ categories
-15+ orders
-25+ order items
+[15+ orders](https://github.com/Gervaissano/PL-ASSIGNMENT/blob/test-1/Orders%20table.xls)
+[25+ order items](https://github.com/Gervaissano/PL-ASSIGNMENT/blob/test-1/Order_items%20table.xls)
 Orders distributed across multiple dates
 
 
