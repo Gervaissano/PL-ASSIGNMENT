@@ -44,7 +44,7 @@ Creating relational tables with appropriate Oracle data types and constraints.
 Inserting and populating supermarket data.
 Retrieving information using SELECT queries.
 Joining related tables to analyze [customers](https://github.com/Gervaissano/PL-ASSIGNMENT/blob/test-1/JOIN%20Query%201%20%E2%80%94%20Orders%20with%20customer%20information.sql), [orders](https://github.com/Gervaissano/PL-ASSIGNMENT/blob/test-1/JOIN%20Query%203%20%E2%80%94%20All%20customers%20and%20their%20orders.sql), and [products](https://github.com/Gervaissano/PL-ASSIGNMENT/blob/test-1/JOIN%20Query%202%20%E2%80%94%20Order%20items%20with%20product%20information.sql).
-Using queries to verify records and analyze database information.
+[Using queries to verify records and analyze database information](https://github.com/Gervaissano/PL-ASSIGNMENT/blob/test-1/CTE%20Query%20%E2%80%94%20Customers%20above%20average%20spending.sql).
 
 Example user setup:
 CREATE USER sunrise_supermarket IDENTIFIED BY "kamana@2005";
