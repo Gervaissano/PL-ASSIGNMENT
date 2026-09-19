@@ -1,4 +1,5 @@
 Sunrise Supermarket Database
+
 Student Information
 
 Name: Sano Gervais
