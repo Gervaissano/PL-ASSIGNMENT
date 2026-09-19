@@ -13,6 +13,8 @@ Name: Sano Gervais
 
 Student ID: 20251SEN160
 
+Course: Database development with PL/SQL 
+
 Database: Oracle Database 21c
 
 
