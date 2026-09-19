@@ -1,3 +1,5 @@
+<img width="1080" height="1080" alt="image" src="https://github.com/user-attachments/assets/44d63816-b143-46c6-b49e-8f59f6e95ae7" />
+
 Sunrise Supermarket Database
 
 Student Information
