@@ -1,7 +1,7 @@
 Sunrise Supermarket Database
 Student Information
 
-###Name: Sano Gervais
+Name: Sano Gervais
 Student ID: 20251SEN160
 Database System: MySQL
 Version: 5.5.28
@@ -107,15 +107,15 @@ AND o.order_id = p.order_id
 WHERE p.previous_order_date IS NOT NULL
 ORDER BY o.customer_id, o.order_date;
 How to Run
+
+
 1. Start MySQL
-
 Open the MySQL command line or MySQL Workbench.
-
-2. Create the database
+3. Create the database
 CREATE DATABASE sunrise_supermarket;
-3. Select the database
+5. Select the database
 USE sunrise_supermarket;
-4. Run the SQL files
+7. Run the SQL files
 
 If the project is organized into separate files, run them in this order:
 
