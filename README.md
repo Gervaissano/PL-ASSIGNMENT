@@ -46,6 +46,13 @@ Retrieving information using SELECT queries.
 Joining related tables to analyze [customers](https://github.com/Gervaissano/PL-ASSIGNMENT/blob/test-1/JOIN%20Query%201%20%E2%80%94%20Orders%20with%20customer%20information.sql), [orders](https://github.com/Gervaissano/PL-ASSIGNMENT/blob/test-1/JOIN%20Query%203%20%E2%80%94%20All%20customers%20and%20their%20orders.sql), and [products](https://github.com/Gervaissano/PL-ASSIGNMENT/blob/test-1/JOIN%20Query%202%20%E2%80%94%20Order%20items%20with%20product%20information.sql).
 [Using queries to verify records and analyze database information](https://github.com/Gervaissano/PL-ASSIGNMENT/blob/test-1/CTE%20Query%20%E2%80%94%20Customers%20above%20average%20spending.sql).
 
+
+Window Functions
+
+The project uses Oracle SQL window functions to perform advanced analysis of customer purchases and sales trends without grouping or losing individual records. [Window Function 1 — Rank Customer](https://github.com/Gervaissano/PL-ASSIGNMENT/blob/test-1/Window%20Function%201%20%E2%80%94%20Rank%20customers%20by%20total%20spending.sql) uses RANK() to rank customers according to their total spending, helping identify customers based on their purchase value. [Window Function 2 — Number Each Customer's Orders](https://github.com/Gervaissano/PL-ASSIGNMENT/blob/test-1/Window%20Function%202%20%E2%80%94%20Number%20each%20customer's%20orders.sql) uses ROW_NUMBER() with PARTITION BY to assign a sequential number to each customer's orders according to the order date, showing whether an order was the customer's first, second, third, and so on. [Window Function 3 — Running Revenue Over Time](https://github.com/Gervaissano/PL-ASSIGNMENT/blob/test-1/Window%20Function%203%20%E2%80%94%20Running%20revenue%20over%20time.sql) uses SUM() OVER (ORDER BY ...) to calculate cumulative revenue across different dates, allowing revenue growth to be tracked over time. Window Function 4 — Days Between Customer Orders uses LAG() to compare each customer's current order date with their previous order date and calculate the number of days between purchases, helping analyze customer purchasing frequency.
+
+
+
 Example user setup:
 CREATE USER sunrise_supermarket IDENTIFIED BY "kamana@2005";
 
@@ -82,8 +89,8 @@ In SQL*Plus:
 @01_create_tables.sql
 @02_insert_data.sql
 @03_queries.sql
-Verification
 
+Verification
 After execution, verify the tables and data:
 SELECT table_name
 FROM user_tables
@@ -102,8 +109,8 @@ SQL
 SQL*Plus
 Oracle SQL Developer
 Git & GitHub
-Learning Outcomes
 
+Learning Outcomes
 This project demonstrates skills in relational database design, Oracle database user management, privileges, table creation, primary and foreign keys, data integrity, SQL queries, joins, data insertion, aggregation, and database management.
 
 Repository Structure
