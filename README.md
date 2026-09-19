@@ -117,9 +117,30 @@ Repository Structure
 Sunrise-Supermarket-Database/
 │
 ├── README.md
-├── 01_create_tables.sql
-├── 02_insert_data.sql
-├── 03_queries.sql
-└── screenshots/
-    └── database_results.png
-
+│
+├── 01_database_setup.sql
+│   └── Create Oracle user and grant privileges
+│
+├── 02_create_tables.sql
+│   └── Create tables, primary keys, foreign keys, and constraints
+│
+├── 03_insert_data.sql
+│   └── Populate customers, products, orders, and order items
+│
+├── 04_basic_queries.sql
+│   └── Retrieve and filter database information
+│
+├── 05_aggregate_queries.sql
+│   └── Analyze sales using COUNT, SUM, AVG, GROUP BY, and HAVING
+│
+├── 06_join_queries.sql
+│   └── Combine related data using SQL JOIN operations
+│
+├── 07_window_functions.sql
+│   ├── Rank Customers
+│   ├── Number Each Customer's Orders
+│   ├── Running Revenue Over Time
+│   └── Days Between Customer Orders
+│
+└── 08_verification.sql
+    └── Verify tables, records, and required data counts
